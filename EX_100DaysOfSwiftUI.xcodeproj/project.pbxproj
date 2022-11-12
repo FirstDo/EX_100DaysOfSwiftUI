@@ -12,6 +12,7 @@
 		87360F05291FE39300D840F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87360F04291FE39300D840F0 /* Assets.xcassets */; };
 		87360F09291FE39300D840F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87360F08291FE39300D840F0 /* Preview Assets.xcassets */; };
 		87360F11291FE69600D840F0 /* Project1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87360F10291FE69600D840F0 /* Project1View.swift */; };
+		87360F13292003EC00D840F0 /* Project1ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87360F12292003EC00D840F0 /* Project1ChallengeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		87360F06291FE39300D840F0 /* EX_100DaysOfSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EX_100DaysOfSwiftUI.entitlements; sourceTree = "<group>"; };
 		87360F08291FE39300D840F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		87360F10291FE69600D840F0 /* Project1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1View.swift; sourceTree = "<group>"; };
+		87360F12292003EC00D840F0 /* Project1ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1ChallengeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				87360F10291FE69600D840F0 /* Project1View.swift */,
+				87360F12292003EC00D840F0 /* Project1ChallengeView.swift */,
 			);
 			path = Project1;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87360F03291FE39200D840F0 /* ContentView.swift in Sources */,
+				87360F13292003EC00D840F0 /* Project1ChallengeView.swift in Sources */,
 				87360F01291FE39200D840F0 /* EX_100DaysOfSwiftUIApp.swift in Sources */,
 				87360F11291FE69600D840F0 /* Project1View.swift in Sources */,
 			);
