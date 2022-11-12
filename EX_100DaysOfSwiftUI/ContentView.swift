@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    private let projects = (1...10).map {"Project\($0)"}
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            List {
+                ForEach(projects, id: \.self) { item in
+                    NavigationLink {
+                        Text(item)
+                    } label: {
+                        Text(item)
+                    }
+
+                }
+            }
+            .navigationTitle("100 DAYS OF SwiftUI")
         }
-        .padding()
     }
 }
 
