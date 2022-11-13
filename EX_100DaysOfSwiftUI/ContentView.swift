@@ -17,7 +17,11 @@ struct ContentView: View {
                     NavigationLink("Project2", destination: Project2View())
                     NavigationLink("Project3", destination: Project3View())
                     
-                    NavigationLink("Project4", destination: Project4View())
+                    NavigationLink(destination: Project4View()) {
+                        Text("~Project4는 안했음~").foregroundColor(.red)
+                    }
+                    
+                    NavigationLink("Project5", destination: Project5View())
                 }
                 
                 Section("Challenage") {
