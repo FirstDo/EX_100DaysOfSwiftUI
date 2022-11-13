@@ -12,13 +12,16 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             Form {
-                Section("Project1") {
-                    NavigationLink("Basic", destination: Project1View())
-                    NavigationLink("Challenge", destination: Project1ChallengeView())
+                Section("Project") {
+                    NavigationLink("Project1", destination: Project1View())
+                    NavigationLink("Project2", destination: Project2View())
+                    NavigationLink("Project3", destination: Project3View())
                 }
                 
-                Section("Project2") {
-                    NavigationLink("Basic", destination: Project2View())
+                Section("Challenage") {
+                    NavigationLink("Challenge1", destination: Project1ChallengeView())
+                    
+                    NavigationLink("Challenge3", destination: Project3ChallengeView())
                 }
             }
             .navigationTitle("100 DAYS OF SwiftUI")

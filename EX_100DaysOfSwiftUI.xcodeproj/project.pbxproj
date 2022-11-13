@@ -14,6 +14,8 @@
 		87360F11291FE69600D840F0 /* Project1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87360F10291FE69600D840F0 /* Project1View.swift */; };
 		87360F13292003EC00D840F0 /* Project1ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87360F12292003EC00D840F0 /* Project1ChallengeView.swift */; };
 		87360F1629200D5800D840F0 /* Project2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87360F1529200D5800D840F0 /* Project2View.swift */; };
+		87C40E772920E64C00F0B81E /* Project3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C40E762920E64C00F0B81E /* Project3View.swift */; };
+		87C40E7B292110CF00F0B81E /* Project3ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C40E7A292110CF00F0B81E /* Project3ChallengeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		87360F10291FE69600D840F0 /* Project1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1View.swift; sourceTree = "<group>"; };
 		87360F12292003EC00D840F0 /* Project1ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1ChallengeView.swift; sourceTree = "<group>"; };
 		87360F1529200D5800D840F0 /* Project2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2View.swift; sourceTree = "<group>"; };
+		87C40E762920E64C00F0B81E /* Project3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project3View.swift; sourceTree = "<group>"; };
+		87C40E7A292110CF00F0B81E /* Project3ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project3ChallengeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,7 @@
 			children = (
 				87360F00291FE39200D840F0 /* EX_100DaysOfSwiftUIApp.swift */,
 				87360F02291FE39200D840F0 /* ContentView.swift */,
-				87360F0F291FE68B00D840F0 /* Project1 */,
-				87360F1429200D4800D840F0 /* Project2 */,
+				87C40E782920E65500F0B81E /* Presentation */,
 				87360F04291FE39300D840F0 /* Assets.xcassets */,
 				87360F06291FE39300D840F0 /* EX_100DaysOfSwiftUI.entitlements */,
 				87360F07291FE39300D840F0 /* Preview Content */,
@@ -92,6 +95,25 @@
 				87360F1529200D5800D840F0 /* Project2View.swift */,
 			);
 			path = Project2;
+			sourceTree = "<group>";
+		};
+		87C40E782920E65500F0B81E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				87360F0F291FE68B00D840F0 /* Project1 */,
+				87360F1429200D4800D840F0 /* Project2 */,
+				87C40E792920E65E00F0B81E /* Project3 */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		87C40E792920E65E00F0B81E /* Project3 */ = {
+			isa = PBXGroup;
+			children = (
+				87C40E762920E64C00F0B81E /* Project3View.swift */,
+				87C40E7A292110CF00F0B81E /* Project3ChallengeView.swift */,
+			);
+			path = Project3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,7 +189,9 @@
 				87360F1629200D5800D840F0 /* Project2View.swift in Sources */,
 				87360F03291FE39200D840F0 /* ContentView.swift in Sources */,
 				87360F13292003EC00D840F0 /* Project1ChallengeView.swift in Sources */,
+				87C40E7B292110CF00F0B81E /* Project3ChallengeView.swift in Sources */,
 				87360F01291FE39200D840F0 /* EX_100DaysOfSwiftUIApp.swift in Sources */,
+				87C40E772920E64C00F0B81E /* Project3View.swift in Sources */,
 				87360F11291FE69600D840F0 /* Project1View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
