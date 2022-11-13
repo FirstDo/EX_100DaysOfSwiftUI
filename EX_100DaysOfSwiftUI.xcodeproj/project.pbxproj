@@ -13,6 +13,7 @@
 		87360F09291FE39300D840F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87360F08291FE39300D840F0 /* Preview Assets.xcassets */; };
 		87360F11291FE69600D840F0 /* Project1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87360F10291FE69600D840F0 /* Project1View.swift */; };
 		87360F13292003EC00D840F0 /* Project1ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87360F12292003EC00D840F0 /* Project1ChallengeView.swift */; };
+		87360F1629200D5800D840F0 /* Project2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87360F1529200D5800D840F0 /* Project2View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		87360F08291FE39300D840F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		87360F10291FE69600D840F0 /* Project1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1View.swift; sourceTree = "<group>"; };
 		87360F12292003EC00D840F0 /* Project1ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1ChallengeView.swift; sourceTree = "<group>"; };
+		87360F1529200D5800D840F0 /* Project2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				87360F00291FE39200D840F0 /* EX_100DaysOfSwiftUIApp.swift */,
-				87360F0F291FE68B00D840F0 /* Project1 */,
 				87360F02291FE39200D840F0 /* ContentView.swift */,
+				87360F0F291FE68B00D840F0 /* Project1 */,
+				87360F1429200D4800D840F0 /* Project2 */,
 				87360F04291FE39300D840F0 /* Assets.xcassets */,
 				87360F06291FE39300D840F0 /* EX_100DaysOfSwiftUI.entitlements */,
 				87360F07291FE39300D840F0 /* Preview Content */,
@@ -81,6 +84,14 @@
 				87360F12292003EC00D840F0 /* Project1ChallengeView.swift */,
 			);
 			path = Project1;
+			sourceTree = "<group>";
+		};
+		87360F1429200D4800D840F0 /* Project2 */ = {
+			isa = PBXGroup;
+			children = (
+				87360F1529200D5800D840F0 /* Project2View.swift */,
+			);
+			path = Project2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87360F1629200D5800D840F0 /* Project2View.swift in Sources */,
 				87360F03291FE39200D840F0 /* ContentView.swift in Sources */,
 				87360F13292003EC00D840F0 /* Project1ChallengeView.swift in Sources */,
 				87360F01291FE39200D840F0 /* EX_100DaysOfSwiftUIApp.swift in Sources */,
