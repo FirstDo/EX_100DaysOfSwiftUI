@@ -16,6 +16,7 @@
 		87360F1629200D5800D840F0 /* Project2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87360F1529200D5800D840F0 /* Project2View.swift */; };
 		87C40E772920E64C00F0B81E /* Project3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C40E762920E64C00F0B81E /* Project3View.swift */; };
 		87C40E7B292110CF00F0B81E /* Project3ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C40E7A292110CF00F0B81E /* Project3ChallengeView.swift */; };
+		87C40E7D292115D200F0B81E /* Project4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C40E7C292115D200F0B81E /* Project4View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		87360F1529200D5800D840F0 /* Project2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project2View.swift; sourceTree = "<group>"; };
 		87C40E762920E64C00F0B81E /* Project3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project3View.swift; sourceTree = "<group>"; };
 		87C40E7A292110CF00F0B81E /* Project3ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project3ChallengeView.swift; sourceTree = "<group>"; };
+		87C40E7C292115D200F0B81E /* Project4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project4View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				87360F0F291FE68B00D840F0 /* Project1 */,
 				87360F1429200D4800D840F0 /* Project2 */,
 				87C40E792920E65E00F0B81E /* Project3 */,
+				87C40E7E292115D600F0B81E /* Project4 */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -114,6 +117,14 @@
 				87C40E7A292110CF00F0B81E /* Project3ChallengeView.swift */,
 			);
 			path = Project3;
+			sourceTree = "<group>";
+		};
+		87C40E7E292115D600F0B81E /* Project4 */ = {
+			isa = PBXGroup;
+			children = (
+				87C40E7C292115D200F0B81E /* Project4View.swift */,
+			);
+			path = Project4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +200,7 @@
 				87360F1629200D5800D840F0 /* Project2View.swift in Sources */,
 				87360F03291FE39200D840F0 /* ContentView.swift in Sources */,
 				87360F13292003EC00D840F0 /* Project1ChallengeView.swift in Sources */,
+				87C40E7D292115D200F0B81E /* Project4View.swift in Sources */,
 				87C40E7B292110CF00F0B81E /* Project3ChallengeView.swift in Sources */,
 				87360F01291FE39200D840F0 /* EX_100DaysOfSwiftUIApp.swift in Sources */,
 				87C40E772920E64C00F0B81E /* Project3View.swift in Sources */,
