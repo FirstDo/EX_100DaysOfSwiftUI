@@ -19,6 +19,7 @@
 		87C40E7D292115D200F0B81E /* Project4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C40E7C292115D200F0B81E /* Project4View.swift */; };
 		87C40E802921190200F0B81E /* Project5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C40E7F2921190200F0B81E /* Project5View.swift */; };
 		87C40E8429211C0500F0B81E /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87C40E8329211C0500F0B81E /* start.txt */; };
+		87C40E8629211F9400F0B81E /* Project6View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C40E8529211F9400F0B81E /* Project6View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		87C40E7C292115D200F0B81E /* Project4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project4View.swift; sourceTree = "<group>"; };
 		87C40E7F2921190200F0B81E /* Project5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project5View.swift; sourceTree = "<group>"; };
 		87C40E8329211C0500F0B81E /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		87C40E8529211F9400F0B81E /* Project6View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project6View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				87C40E792920E65E00F0B81E /* Project3 */,
 				87C40E7E292115D600F0B81E /* Project4 */,
 				87C40E812921190700F0B81E /* Project5 */,
+				87C40E8729211FA200F0B81E /* Project6 */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -147,6 +150,14 @@
 				87C40E8329211C0500F0B81E /* start.txt */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		87C40E8729211FA200F0B81E /* Project6 */ = {
+			isa = PBXGroup;
+			children = (
+				87C40E8529211F9400F0B81E /* Project6View.swift */,
+			);
+			path = Project6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +240,7 @@
 				87360F01291FE39200D840F0 /* EX_100DaysOfSwiftUIApp.swift in Sources */,
 				87C40E772920E64C00F0B81E /* Project3View.swift in Sources */,
 				87360F11291FE69600D840F0 /* Project1View.swift in Sources */,
+				87C40E8629211F9400F0B81E /* Project6View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
