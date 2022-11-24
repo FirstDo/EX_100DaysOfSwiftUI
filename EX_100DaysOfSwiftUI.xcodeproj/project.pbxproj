@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		872FE658292FA05400B92509 /* Project7View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872FE657292FA05400B92509 /* Project7View.swift */; };
+		872FE65A292FB45200B92509 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872FE659292FB45200B92509 /* AddView.swift */; };
 		87360F01291FE39200D840F0 /* EX_100DaysOfSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87360F00291FE39200D840F0 /* EX_100DaysOfSwiftUIApp.swift */; };
 		87360F03291FE39200D840F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87360F02291FE39200D840F0 /* ContentView.swift */; };
 		87360F05291FE39300D840F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87360F04291FE39300D840F0 /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		872FE657292FA05400B92509 /* Project7View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project7View.swift; sourceTree = "<group>"; };
+		872FE659292FB45200B92509 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		87360EFD291FE39200D840F0 /* EX_100DaysOfSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EX_100DaysOfSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87360F00291FE39200D840F0 /* EX_100DaysOfSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EX_100DaysOfSwiftUIApp.swift; sourceTree = "<group>"; };
 		87360F02291FE39200D840F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		872FE656292FA02F00B92509 /* Project7 */ = {
+			isa = PBXGroup;
+			children = (
+				872FE657292FA05400B92509 /* Project7View.swift */,
+				872FE659292FB45200B92509 /* AddView.swift */,
+			);
+			path = Project7;
+			sourceTree = "<group>";
+		};
 		87360EF4291FE39100D840F0 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +127,7 @@
 				87C40E7E292115D600F0B81E /* Project4 */,
 				87C40E812921190700F0B81E /* Project5 */,
 				87C40E8729211FA200F0B81E /* Project6 */,
+				872FE656292FA02F00B92509 /* Project7 */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -239,6 +253,8 @@
 				87C40E7B292110CF00F0B81E /* Project3ChallengeView.swift in Sources */,
 				87360F01291FE39200D840F0 /* EX_100DaysOfSwiftUIApp.swift in Sources */,
 				87C40E772920E64C00F0B81E /* Project3View.swift in Sources */,
+				872FE65A292FB45200B92509 /* AddView.swift in Sources */,
+				872FE658292FA05400B92509 /* Project7View.swift in Sources */,
 				87360F11291FE69600D840F0 /* Project1View.swift in Sources */,
 				87C40E8629211F9400F0B81E /* Project6View.swift in Sources */,
 			);

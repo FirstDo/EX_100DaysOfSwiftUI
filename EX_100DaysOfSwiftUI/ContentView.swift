@@ -22,8 +22,8 @@ struct ContentView: View {
                     }
                     
                     NavigationLink("Project5", destination: Project5View())
-                    
                     NavigationLink("Project6", destination: Project6View())
+                    NavigationLink("Project7", destination: Project7View())
                 }
                 
                 Section("Challenage") {
